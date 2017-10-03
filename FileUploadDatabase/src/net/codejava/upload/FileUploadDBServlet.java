@@ -39,6 +39,7 @@ public class FileUploadDBServlet extends HttpServlet {
 			// prints out some information for debugging
 			System.out.println(filePart.getName());
 			System.out.println(filePart.getSize());
+			System.out.println(filePart.getSize()); //Test
 			System.out.println(filePart.getContentType());
 			
 			// obtains input stream of the upload file
